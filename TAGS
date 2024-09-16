@@ -1,0 +1,430 @@
+
+/Users/aaa/myfile/bitbucket/cpplib/AronLib.h,13028
+#define __AronLib__2,20
+namespace fs 84,2088
+template<typename T,98,2389
+void testfun(114,2638
+void testfun1(119,2673
+void testfun2 122,2696
+two<T, T> divMod(126,2742
+int max(132,2815
+int max(136,2878
+string reverseStr(140,2956
+void writeFileAppendVector(148,3089
+void newline(157,3307
+void writeFile(163,3344
+void writeFileAppend(170,3476
+void writeFileVector(178,3656
+void writeFileAppendRow(195,3940
+std::pair<string, string> split(204,4149
+template<typename T,234,4977
+static vector<vector<T>> splitWhen(235,5012
+string removeIndex(262,5583
+vector<T> removeIndex(274,5879
+vector<T> removeIndexRange(293,6265
+namespace AronPrint 343,7272
+template<typename T,359,7510
+void pp(368,7675
+void pp(373,7726
+void pp(379,7835
+void ppf(382,7896
+template<typename T,387,7989
+void pp(388,8022
+void pp(392,8070
+void pp(396,8122
+void pp(400,8176
+void pp(403,8228
+void pp(407,8290
+void pp(410,8363
+void pp(413,8433
+void pp(416,8501
+void pp(419,8570
+void pp(422,8641
+void fl(426,8718
+void fl(431,8778
+void fw(438,8929
+class StopWatch 448,9092
+  clock_t startTime 449,9110
+  clock_t endTime 450,9135
+  clock_t diff 451,9158
+  StopWatch(453,9187
+  void begin(458,9270
+  void start(462,9345
+  void end(465,9379
+  void print(471,9583
+  void printTick(477,9789
+template<typename T 485,9939
+namespace AronLambda 511,10332
+T head(517,10402
+char head(523,10477
+T last(535,10684
+static vector<T> reverse(551,10910
+template<typename Fun,570,11227
+static vector<T> takeWhile(571,11262
+template<typename Fun,588,11539
+static vector<T> dropWhile(589,11574
+static string takeWhile(602,11839
+static string dropWhile(618,12103
+static two<string, string> splitWhileStr(634,12374
+static vector<T> tail(659,12771
+template<typename Fun,672,12954
+static T foldl(673,12989
+template<typename Fun,692,13416
+static T foldr(693,13451
+static vector<T> init(703,13671
+template<typename Fun,724,14077
+static vector<A> map(725,14112
+template<typename Fun,733,14264
+static vector<T> zipWith(734,14299
+static vector<T> flat(757,14885
+template<typename T,774,15204
+static vector<T> filter(775,15239
+static string take(786,15460
+static string take(797,15615
+static vector<T> take(803,15736
+static vector<T> drop(818,16010
+template<typename Fun,829,16212
+static vector<T> mergeSortListLam(830,16247
+static vector<T> mergeSortList(852,16748
+static vector<T> mergeSort(869,17156
+template<typename T,883,17519
+namespace AronLambda{AronLambda886,17564
+template<typename Fun,926,18120
+template<typename Fun,935,18278
+static two<two945,18523
+template<typename Fun,962,18752
+template<typename Fun,976,19043
+template<typename Fun,995,19370
+template<typename Fun,1009,19577
+template<typename T,1037,20165
+template<typename Fun,1062,20593
+void pl(1095,21097
+string toStr2(1102,21192
+void nl(1115,21403
+void swap(1120,21456
+void swap(1127,21574
+long lcgRandom(1145,21976
+int random(1161,22305
+vector<int> allPrime(1168,22404
+vector<int>* nPrime(1185,22731
+const char* stringToCString(1214,23255
+const char* s2c(1221,23367
+const char* toCharPtr(1230,23527
+const char* strToCharArray(1234,23583
+string toStr(1245,23748
+template<typename T,1251,23840
+string toStr(1252,23873
+template<typename T,1261,24041
+string str(1262,24074
+string str(1267,24150
+string str2(1272,24220
+string trimLeft(1276,24265
+string trimRight(1284,24444
+string trim(1298,24709
+string cStringToString(1308,24906
+string charPtrToString(1313,24987
+string c2s(1321,25095
+bool containStrRegex(1335,25310
+bool containStr(1350,25561
+vector<string> splitStr(1370,25926
+std::pair<vector<T>, vector<T>> splitAt(1396,26550
+template<typename Fun,1413,26902
+std::pair<vector<T>, vector<T>> breakVec(1414,26937
+vector<T> replaceVec(1432,27319
+vector<T> insertAt(1455,27899
+vector<std::string> splitStrRegex(1479,28636
+bool isEmpty(1496,28993
+bool isEmpty(1503,29078
+double squareRoot(1517,29350
+double intToDouble(1531,29545
+double nthRoot(1541,29709
+string charArrToString(1564,30285
+string replicate(1570,30422
+string repeat(1582,30635
+vector<T> repeatVec(1587,30720
+void add(1596,30874
+int compareCString(1604,30987
+int compareString(1612,31119
+bool compareFloat(1619,31220
+void print(1624,31325
+void print(1627,31407
+void printLn(1631,31478
+void printLn(1634,31560
+string toString(1638,31631
+vector<vector<T>> transpose(1680,32277
+bool compareArray(1700,32734
+void print(1709,32922
+void print(1714,33037
+void print(1720,33121
+void print(1728,33267
+void print(1736,33409
+void printNb(1745,33530
+void printLn(1750,33592
+void printLnNb(1755,33675
+void ppL(1762,33752
+vector<T> operator+(1772,33884
+string operator+(1778,34025
+string operator+(1782,34115
+vector<T> con(1787,34226
+vector<T>* moveVec(1800,34481
+int unsignToInt(1809,34680
+vector<T>* append(1823,34980
+int length(1835,35212
+int length(1846,35329
+int len(1853,35425
+int len(1861,35524
+bool binSearch(1877,35731
+vector<T> operator*(1897,36149
+vector<T> operator*(1911,36387
+vector< vector<T> > operator*(1920,36569
+vector< vector<T> > operator*(1930,36802
+vector<T> reverseVec(1943,37003
+vector<int> range(1951,37148
+vector<T> geneVector(1960,37347
+bool isBST(1974,37659
+vector< vector<T> > geneMatrix(1992,38040
+void swapT(2008,38382
+T partitionT(2021,38590
+T partition(2046,39047
+T partititonInline(2082,39858
+void quickSortT(2102,40313
+std::string replace(2110,40510
+bool isEmptyLine(2114,40626
+string getEnv(2121,40764
+string concatValidPath(2137,41035
+string removeAdjacentDuplicateChar(2151,41385
+namespace SpaceTest 2167,41712
+    static void t(2170,41762
+    static void t(2180,42003
+    static void t(2189,42196
+    static void t(2198,42391
+    static void t(2207,42586
+namespace AronGeometry 2220,42843
+    friend Point<T> operator+(2242,43189
+    friend Point<T> operator-(2246,43330
+    friend Point<T> operator*(2250,43471
+    friend Point<T> operator*(2254,43592
+    Point<T> operator+(2260,43696
+    bool operator==(operator==2264,43802
+    bool operator!=(operator!=2267,43892
+class Pair 2282,44213
+    Point<T> p0;2284,44234
+    Point<T> p1;2285,44251
+    Pair(2286,44268
+    Pair operator+(2291,44369
+    Pair operator-(2295,44487
+class Vector 2304,44629
+    Point<T> p0;2306,44652
+    Point<T> p1;2307,44679
+    Vector(2309,44704
+    bool isZero(2314,44800
+    Vector<T> dir(2317,44851
+    Vector<T> operator+(2331,45168
+    bool operator==(operator==2382,46308
+namespace Utility 2411,46834
+bool isSubstring(2426,47107
+int substringFirstIndex(2465,48111
+int strToInt(2500,48891
+int stringToInt(2504,48941
+double stringToDouble(2511,49023
+long stringToLong(2516,49107
+float stringToFloat(2521,49188
+string charToString(2526,49270
+void begin(2532,49353
+void begin(2539,49557
+void end(2544,49698
+void cut(2548,49724
+string fun_parent(2556,49950
+string fun_parent_parent(2571,50303
+void print(2585,50580
+void print(2589,50622
+namespace SpaceComplex 2719,54542
+class Complex 2720,54567
+    double x;2722,54591
+    double y;2723,54605
+    Complex(2728,54662
+    Complex(2735,54767
+    Complex operator+(2743,54887
+    Complex operator-(2753,55067
+    Complex operator*(2765,55382
+    bool operator==(operator==2773,55538
+    Complex conjugate(2776,55621
+    double norm(2781,55700
+    std::pair<std::pair2785,55777
+    std::pair<double, double> polar(2785,55777
+    friend Complex operator/(2798,56128
+    void print(2809,56435
+Complex rectangular(2819,56544
+namespace MatrixVector 2834,56959
+T** allocateTemp(2844,57199
+T** allocate(2858,57525
+T** vecVecToArrArr(2871,57837
+vector< vector<T> > arrArrToVecVec(2915,58746
+class vec 2931,59055
+    int nrow;2933,59075
+    int ncol;2934,59089
+    float **arr;arr2935,59103
+class row 2953,59483
+    int ncol;2955,59503
+    int nrow;2956,59517
+    float** arr;2957,59531
+vec::vec(vec2979,59996
+vec::vec(vec2982,60031
+vec::vec(vec2993,60235
+vec::~vec(~vec2998,60339
+vector<float> vec::toVector(toVector3007,60492
+vec vec::operator+(operator+3014,60637
+vec vec::operator-(operator-3023,60821
+bool vec::operator==(operator==3033,61007
+vec& vec::operator=(operator=3042,61223
+void vec::createVec(createVec3054,61486
+void vec::print(print3059,61600
+row::row(row3065,61697
+row::row(row3067,61712
+row::row(row3072,61814
+row::row(row3077,61905
+row::~row(~row3085,62091
+row::row(row3094,62263
+row vec::tran(tran3103,62443
+vec row::tran(tran3113,62625
+vector<float> row::toVector(toVector3127,62853
+void row::print(print3134,62998
+bool row::operator==(operator==3142,63106
+row row::operator=(operator=3151,63296
+void row::createRow(createRow3161,63500
+class mat 3167,63615
+    int ncol;3169,63635
+    int nrow;3170,63649
+    float** arr;3171,63663
+    class Loader{Loader3193,64093
+        mat& m;3195,64123
+        int ix;3196,64139
+        Loader(3197,64155
+        Loader operator , operator ,3198,64204
+    Loader operator << operator <<3207,64446
+mat::mat(mat3292,66547
+void mat::zero(zero3298,66632
+mat mat::id(id3306,66765
+void mat::identity(identity3314,66884
+mat::mat(mat3333,67257
+mat::mat(mat3343,67482
+mat::mat(mat3348,67584
+mat::mat(mat3358,67862
+mat::~mat(~mat3369,68153
+mat vec::toMatrix(toMatrix3376,68244
+void mat::print(print3403,68746
+string mat::toStr(toStr3412,68912
+void mat::print2(print23424,69160
+vec mat::getVec(getVec3436,69393
+row mat::getRow(getRow3448,69602
+mat mat::removeVec(removeVec3459,69803
+mat mat::insertVecNext(insertVecNext3477,70233
+mat mat::insertVecPrevious(insertVecPrevious3491,70605
+mat mat::removeRow(removeRow3503,70925
+mat mat::operator+(operator+3517,71252
+mat mat::operator-(operator-3527,71458
+mat mat::operator/(operator/3536,71670
+mat mat::operator*(operator*3546,71866
+mat mat::subMatrix(subMatrix3564,72164
+mat mat::take(take3584,72613
+mat mat::drop(drop3596,72813
+mat mat::init(init3615,73103
+mat mat::tail(tail3636,73413
+mat mat::block(block3652,73706
+mat mat::transpose(transpose3672,74199
+bool mat::operator==(operator==3683,74415
+void mat::geneMat(geneMat3701,74801
+void mat::geneMatRandom(geneMatRandom3724,75168
+mat vec::operator*(operator*3733,75348
+mat vec::multi(multi3745,75618
+vec mat::operator*(operator*3750,75671
+mat mat::operator*(operator*3758,75837
+mat mat::operator=(operator=3768,76051
+mat mat::clone(clone3782,76365
+mat mat::concat(concat3792,76568
+mat mat::rowMultiScala(rowMultiScala3815,77153
+mat mat::vecMultiScala(vecMultiScala3829,77474
+mat mat::swapRow(swapRow3846,77829
+float row::dot(dot3865,78337
+float row::operator*(operator*3876,78508
+row row::operator+(operator+3879,78560
+row row::operator-(operator-3888,78745
+row row::operator/(operator/3897,78930
+mat concat(3904,79075
+mat identity(3920,79457
+vec backwardSubstitute(3948,79984
+mat ltri(3992,81222
+std::pair<mat, mat> utri(4009,81673
+mat geneMat(4023,81987
+mat geneMatRandom(4039,82301
+namespace SpaceVector4 4058,82638
+class Vector4 4059,82663
+    float column[column4060,82679
+    Vector4(4071,82956
+    Vector4(4075,83041
+    Vector4(4082,83256
+    Vector4(4088,83435
+    Vector4(4094,83611
+    bool operator==(operator==4100,83781
+    Vector4& operator=(operator=4107,84052
+    Vector4 operator+(4115,84290
+    Vector4 operator-(4124,84565
+    Vector4 operator/(4133,84840
+    float dot(4141,85022
+    float cross(4150,85316
+    Vector4 normal(4154,85375
+    void pp(4173,85843
+    void print(4176,85882
+namespace SpaceMatrix4 4235,87112
+class Matrix4 4239,87193
+    Vector4 mat[mat4240,87209
+    Matrix4(4242,87237
+    Matrix4(4247,87339
+    Matrix4(4254,87495
+    Matrix4(4260,87647
+    Matrix4& operator=(operator=4270,87978
+    bool operator==(operator==4278,88167
+    Matrix4 operator+(4294,88699
+    Matrix4 operator-(4302,88908
+    Vector4 operator*(4312,89139
+    Matrix4 operator*(4335,89917
+    Matrix4 translate(4345,90214
+    Matrix4 identity(4358,90497
+    void pp(4366,90643
+    void print(4369,90682
+vector<T> interleave(4386,91276
+string takeFileName(4418,91899
+string takeDirectory(4445,92676
+vector<T> interleave(4465,93208
+string takeExtension(4484,93580
+string join(4504,93980
+string joinNewLine(4510,94131
+vector<string> readFile(4525,94438
+vector<string> readFileBackward(4539,94722
+string readFileStream(4587,95859
+void listDirToFile(4614,96665
+void listDirToVec(4640,97558
+vector<string> recurveDirBoost(4647,97746
+void recurveDirToFile(4686,98628
+void listDirAll(4720,99742
+void listDirToVector(4748,100907
+string getPWD(4769,101655
+string intToStringLen(4784,101894
+std::pair<vector<string>, vector<string>> parseLambda(4796,102201
+namespace Algorithm 4815,102750
+void merge(4817,102773
+void mergeSort(4845,103392
+void swap(4855,103610
+int partition(4871,103946
+void quickSortArr(4888,104313
+static vector<T> quickSort(4898,104589
+template<typename Fun,4914,105034
+static vector<T> mergeSortList(4915,105069
+void writeFile(4952,105791
+
+/Users/aaa/myfile/bitbucket/clib/AronCLibNew.h,130
+void printArrayChar(25,497
+int strToNumBase(31,615
+void printArray(42,853
+void printArray(53,1069
+void printArray2df(77,1487
